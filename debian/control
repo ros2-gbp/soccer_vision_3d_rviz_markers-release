@@ -1,0 +1,12 @@
+Source: ros-iron-soccer-vision-3d-rviz-markers
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-iron-ament-copyright <!nocheck>, ros-iron-ament-flake8 <!nocheck>, ros-iron-ament-pep257 <!nocheck>, ros-iron-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-soccer-vision-3d-rviz-markers
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-iron-rclpy, ros-iron-soccer-vision-3d-msgs, ros-iron-soccer-vision-attribute-msgs, ros-iron-visualization-msgs, ros-iron-ros-workspace
+Description: Package that converts soccer_vision_3d_msgs to RViz markers
