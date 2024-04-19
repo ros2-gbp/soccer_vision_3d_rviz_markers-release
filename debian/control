@@ -1,0 +1,12 @@
+Source: ros-jazzy-soccer-vision-3d-rviz-markers
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-ament-copyright <!nocheck>, python3-ament-flake8 <!nocheck>, python3-ament-pep257 <!nocheck>, python3-pytest <!nocheck>, ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-soccer-vision-3d-rviz-markers
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, libvisualization-msgs-dev, python3-visualization-msgs, ros-jazzy-rclpy, ros-jazzy-soccer-vision-3d-msgs, ros-jazzy-soccer-vision-attribute-msgs, ros-visualization-msgs, ros-jazzy-ros-workspace
+Description: Package that converts soccer_vision_3d_msgs to RViz markers
