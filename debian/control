@@ -1,0 +1,12 @@
+Source: ros-lyrical-soccer-vision-3d-rviz-markers
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-lyrical-ament-copyright <!nocheck>, ros-lyrical-ament-flake8 <!nocheck>, ros-lyrical-ament-pep257 <!nocheck>, ros-lyrical-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: https://index.ros.org/p/soccer_vision_3d_rviz_markers/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-soccer-vision-3d-rviz-markers
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-lyrical-rclpy, ros-lyrical-soccer-vision-3d-msgs, ros-lyrical-soccer-vision-attribute-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Description: Package that converts soccer_vision_3d_msgs to RViz markers
